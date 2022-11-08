@@ -6,13 +6,14 @@ import InputForm from "./InputForm";
 const Main = () => {
   return (
     <div className="relative">
-      <div className="w-[77%] min-h-[100vh] mx-auto flex flex-col-reverse lg:flex-row justify-between items-center">
+      <div className="w-[90%] lg:w-[1100px] min-h-[100vh] 2xl:min-h-[90vh]  3xl:min-h-[70vh] mx-auto flex flex-col justify-around items-center lg:flex-row lg:justify-between lg:items-center">
         <TextContainer />
         <ImageContainer />
+        <div className="py-20 block lg:hidden"></div>
       </div>
-      <div className="w-[77%] mx-auto absolute bottom-16 left-[175px]">
-        <div className="w-[83%]">
-          <InputForm className="" />
+      <div className="w-[91%] lg:w-[1100px] mx-auto absolute -bottom-[100px] left-4  2xl:bottom-20 3xl:bottom-20  2xl:left-[210px] 3xl:left-[400px]">
+        <div className=" lg:w-[83%]">
+          <InputForm />
         </div>
       </div>
     </div>

@@ -9,12 +9,12 @@ import {AiFillStar} from 'react-icons/ai'
 
 const Featured = () => {
   return (
-    <div className="w-[77%] mx-auto">
-        <h1 className="text-4xl lg:text-[55px] lg:my-8 leading-tight text-center font-bold">
+    <div className="w-[90%] lg:w-[1100px] mx-auto">
+        <h1 className="text-3xl lg:text-[55px] my-8 leading-tight text-center font-bold">
             Featured Hotels         
         </h1>
-        <div className="flex justify-between items-center">
-            <div className="w-[23.5%] overflow-hidden">
+        <div className="flex flex-col lg:flex-row space-y-8 justify-between items-center">
+            <div className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg1} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -38,7 +38,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[23.5%] overflow-hidden">
+            <div className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg2} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -62,7 +62,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[23.5%] overflow-hidden">
+            <div className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg3} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -86,7 +86,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[23.5%] overflow-hidden">
+            <div className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg4} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />

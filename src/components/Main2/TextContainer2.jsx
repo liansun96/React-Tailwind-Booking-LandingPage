@@ -6,15 +6,15 @@ import {BsLightningFill} from 'react-icons/bs'
 
 const TextContainer2 = () => {
   return (
-    <div className="w-[98%] lg:w-[50%] space-y-10 my-10 pl-6">
-        <h1 className="text-4xl lg:text-[47px] leading-tight font-bold">
+    <div className="w-[98%] lg:w-[50%] space-y-6 lg:space-y-10 lg:my-10 lg:pl-6">
+        <h1 className="text-3xl lg:text-[47px] leading-tight font-bold">
             The Best Holidays Start Here!
         </h1>
         <p className="text-secondary-300 lg:text-base font-DmSans">
             Book your hotel with us and don't forget to grab an awesome hotel deal to save massive on your stay.
         </p>
-        <div className="flex justify-between space-x-4">
-            <div className="w-[50%] space-y-2">
+        <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-x-4">
+            <div className="lg:w-[50%] space-y-2">
                 <div className="flex justify-center items-center bg-[#e6f8f3] w-[60px] h-[60px] rounded-full">
                     <FaUtensils className='text-[#0cbc87] text-xl'/>                
                 </div>
@@ -23,7 +23,7 @@ const TextContainer2 = () => {
                     Departure defective arranging rapturous did. Conduct denied adding worthy little.
                 </p>
             </div>
-            <div className="w-[50%] space-y-2">
+            <div className="lg:w-[50%] space-y-2">
                 <div className="flex justify-center items-center bg-[#fbe9eb] w-[60px] h-[60px] rounded-full">
                     <BsFillStopwatchFill className='text-[#d6293e] text-xl'/>                
                 </div>
@@ -33,8 +33,8 @@ const TextContainer2 = () => {
                 </p>
             </div>
         </div>
-        <div className="flex justify-between space-x-4">
-            <div className="w-[50%] space-y-2">
+        <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-x-4">
+            <div className="lg:w-[50%] space-y-2">
                 <div className="flex justify-center items-center bg-[#e6f8f3] w-[60px] h-[60px] rounded-full">
                     <BsShieldFillCheck className='text-[#fd7e14] text-xl'/>                
                 </div>
@@ -43,7 +43,7 @@ const TextContainer2 = () => {
                     Arranging rapturous did believe him all had supported.
                 </p>
             </div>
-            <div className="w-[50%] space-y-2">
+            <div className="lg:w-[50%] space-y-2">
                 <div className="flex justify-center items-center bg-[#e7f6f8] w-[60px] h-[60px] rounded-full">
                     <BsLightningFill className='text-[#17a2b8] text-xl'/>                
                 </div>

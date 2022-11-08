@@ -8,24 +8,24 @@ import sponsorImg6 from '../images/sponsorImg6.svg'
 
 const Sponsor = () => {
   return (
-    <div className="w-[77%] mx-auto">
-        <div className="flex justify-between items-center my-6">
-            <div className="w-[14%]">
+    <div className="w-[90%] lg:w-[1100px] mx-auto">
+        <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-6 my-6">
+            <div className="w-[40%] lg:w-[14%] mt-6">
                 <img src={sponsorImg1} className='grayscale duration-300 hover:grayscale-0' alt="" />
             </div>
-            <div className="w-[14%]">
+            <div className="w-[40%] lg:w-[14%]">
                 <img src={sponsorImg2} className='grayscale duration-300 hover:grayscale-0' alt="" />
             </div>
-            <div className="w-[14%]">
-                <img src={sponsorImg3} className='grayscale duration-300 hover:grayscale-0 w-[90%] ml-3' alt="" />
+            <div className="w-[40%] lg:w-[14%]">
+                <img src={sponsorImg3} className='grayscale duration-300 hover:grayscale-0 w-[90%] lg:ml-3' alt="" />
             </div>
-            <div className="w-[14%]">
-                <img src={sponsorImg4} className='grayscale duration-300 hover:grayscale-0 w-[85%] ml-2' alt="" />
+            <div className="w-[40%] lg:w-[14%]">
+                <img src={sponsorImg4} className='grayscale duration-300 hover:grayscale-0 w-[85%] lg:ml-2' alt="" />
             </div>
-            <div className="w-[14%]">
+            <div className="w-[40%] lg:w-[14%]">
                 <img src={sponsorImg5} className='grayscale duration-300 hover:grayscale-0' alt="" />
             </div>
-            <div className="w-[14%]">
+            <div className="w-[40%] lg:w-[14%]">
                 <img src={sponsorImg6} className='grayscale duration-300 hover:grayscale-0' alt="" />
             </div>
         </div>

@@ -14,12 +14,12 @@ import exploreImg12 from '../images/exploreImg12.jpg'
 
 const Explore = () => {
   return (
-    <div className="w-[77%] mx-auto">
-        <h1 className="text-4xl lg:text-[55px] lg:my-8 leading-tight text-center font-bold">
+    <div className="w-[90%] lg:w-[1100px] mx-auto">
+        <h1 className="text-4xl  lg:text-[55px] lg:my-8 leading-tight text-center font-bold">
             Explore Nearby         
         </h1>
-        <div className="flex justify-between items-center -space-x-8">
-            <div className="w-[15%]">
+        <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-4 lg:-space-x-8">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg1} className='w-40 rounded-full' alt="" />
@@ -27,7 +27,7 @@ const Explore = () => {
                         <div className="space-y-2 mt-4">                            
                             <div className="text-center !mr-4">
                             <h6 className='exploreCardTitle duration-150 text-xl font-bold'>
-                                SanFrancisco
+                                San Francisco
                             </h6>
                             <p className='text-slate-500 font-light'>                                
                                 13 min drive 
@@ -36,7 +36,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] !mb-4 lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg2} className='w-40 rounded-full' alt="" />
@@ -53,7 +53,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg3} className='w-40 rounded-full' alt="" />
@@ -70,7 +70,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg4} className='w-40 rounded-full' alt="" />
@@ -87,7 +87,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg5} className='w-40 rounded-full' alt="" />
@@ -104,7 +104,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg6} className='w-40 rounded-full' alt="" />
@@ -122,9 +122,9 @@ const Explore = () => {
                 </div>
             </div>
         </div>
-        <div className="py-10"></div>
-        <div className="flex justify-between items-center -space-x-8">
-            <div className="w-[15%]">
+        <div className="py-5"></div>
+        <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-4 lg:-space-x-8">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg7} className='w-40 rounded-full' alt="" />
@@ -141,7 +141,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] !mb-4 lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg8} className='w-40 rounded-full' alt="" />
@@ -158,7 +158,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg9} className='w-40 rounded-full' alt="" />
@@ -175,7 +175,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg10} className='w-40 rounded-full' alt="" />
@@ -192,7 +192,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg11} className='w-40 rounded-full' alt="" />
@@ -209,7 +209,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg12} className='w-40 rounded-full' alt="" />

@@ -5,8 +5,9 @@ import TextContainer2 from './TextContainer2'
 const Main2 = () => {
   return (
     <div className="relative">
-      <div className="w-[77%] min-h-[100vh] mx-auto flex flex-col-reverse lg:flex-row justify-between items-center">
+      <div className="w-[90%] lg:w-[1100px] min-h-[100vh] 3xl:min-h-[70vh] mx-auto flex flex-col lg:flex-row justify-between items-center">
         <ImageContainer2/>
+        <div className="py-5 block lg:hidden"></div>
         <TextContainer2/>        
       </div>      
     </div>

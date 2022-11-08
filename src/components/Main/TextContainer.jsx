@@ -6,15 +6,15 @@ import InputForm from './InputForm'
 
 const TextContainer = () => {
   return (
-    <div className="w-[98%] lg:w-[50%] mb-40 space-y-4 lg:space-y-8 ">
+    <div className="w-[98%] lg:w-[50%] lg:mb-40 space-y-4 lg:space-y-8">      
       <h1 className="text-4xl lg:text-[65px] leading-tight font-bold">
-        Find the top <br />
-        <span className="">Hotels nearby.</span>
+        Find the top <br className="hidden lg:block" />
+        Hotels nearby.
       </h1>
       <p className="text-secondary-300 lg:text-base font-DmSans !mb-5 relative">
         We bring you not only a stay option, but an experience in your budget to <br />
         enjoy the luxury.
-        <span className="absolute top-[-53px] right-[140px] -z-10">
+        <span className="absolute top-[-53px] lg:right-[110px] -z-10 hidden lg:block">
           <svg width="400px" height="21.5px" viewBox="0 0 445.5 21.5">
             <path
               fill="#867ce4"
@@ -23,7 +23,7 @@ const TextContainer = () => {
           </svg>
         </span>
       </p>
-
+      
       <div className="flex justify-start items-center space-x-4 relative">
         <Button
           className={
@@ -34,6 +34,7 @@ const TextContainer = () => {
         </Button>
         <div className="rounded-full flex items-center space-x-2 absolute left-40">
           <img src={btnImg} className="rounded-full w-[50px]" alt="" />
+          <span className=""></span>
           <p>watch our story</p>
         </div>
       </div>

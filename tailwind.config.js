@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1920px',
+      },
       colors: {
         primary: "#5143d9",
         secondary: {
@@ -16,7 +19,7 @@ module.exports = {
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
         DmSans: ["DM sans", "sans-serif"],
-      },
+      },      
     },
   },
   plugins: [],

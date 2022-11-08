@@ -15,14 +15,15 @@ const App = () => {
     <div className="w-[100%] font-Poppins min-h-[100vh]">
       <Nav />
       <Main />
-      <div className="py-5"></div>
+      <div className="py-20 lg:py-10"></div>
       <MiniCarousel />
       <div className="py-10"></div>
-      <Main2 />      
+      <Main2 /> 
+      <div className="py-4 2xl:py-0"></div>
       <Featured/>
-      <div className="py-10"></div>
+      <div className="py-5 lg:py-10"></div>
       <Sponsor/>
-      <div className="py-10"></div>
+      <div className="py-5 lg:py-10"></div>
       <MainCarousel/>
       <div className="py-10"></div>
       <Explore/>
