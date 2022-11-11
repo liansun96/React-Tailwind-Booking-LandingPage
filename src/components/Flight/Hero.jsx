@@ -10,7 +10,7 @@ import Button from "../Button";
 const Hero = () => {
   return (
     <div className="relative mt-10">
-      <div className="hero flex flex-col justify-around items-center w-[90%] lg:w-[1100px] bg-black rounded-3xl xl:min-h-[80vh] 2xl:min-h-[70vh]  3xl:min-h-[55vh] mx-auto">
+      <div className="hero flex flex-col justify-around items-center w-[90%] lg:w-[1100px] bg-black rounded-3xl xl:min-h-[80vh] 2xl:min-h-[80vh]  3xl:min-h-[55vh] mx-auto">
         <div className="py-5"></div>
         <h1 className="text-4xl lg:text-[65px] leading-tight font-bold">
           Ready to take off?

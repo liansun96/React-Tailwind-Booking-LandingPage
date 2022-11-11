@@ -6,6 +6,7 @@ import ChooseUs from './ChooseUs'
 import DownloadApp from './DownloadApp'
 import Sponsor from './Sponsor'
 import Footer from './Footer'
+import Accordion from './Accordion'
 
 const Cab = () => {
   return (
@@ -18,8 +19,10 @@ const Cab = () => {
         <div className="py-20"></div>
         <DownloadApp/>
         <div className="py-10"></div>
+        <Accordion/>
+        <div className=""></div>
         <Sponsor/>
-        <div className="py-10"></div>
+        <div className="py-5"></div>
         <Footer/>
 
     </div>
