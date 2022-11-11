@@ -13,21 +13,21 @@ const InputForm = () => {
                 <div className="flex justify-center !items-center space-x-2 py-2 mt-4">
                     <SlLocationPin className='text-slate-500 text-4xl'/>      
                     <div class='p-4 border border-slate-200 rounded-lg relative'>            
-                        <h2 class="absolute -top-6 translate-x-2 translate-y-1/2 bg-white text-slate-500 px-1">Location</h2>
+                        <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">Location</h2>
                         <input type="text" placeholder='Select location' className='focus:outline-none' />
                     </div>
                 </div>
                 <div className="flex justify-center !items-center space-x-2 py-2">
                     <BsCalendar className='text-slate-500 text-4xl'/>      
                     <div class='p-4 border border-slate-200 rounded-lg relative'>            
-                        <h2 class="absolute -top-6 translate-x-2 translate-y-1/2 bg-white text-slate-500 px-1">Check in - out</h2>
-                        <input type="date" placeholder='Select location' className='focus:outline-none w-[200px]' />
+                        <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">Check in - out</h2>
+                        <input type="date" placeholder='Select location' className='focus:outline-none text-slate-500 w-[200px]' />
                     </div>
                 </div>
                 <div className="flex justify-center !items-center space-x-2 py-2">
                     <HiOutlineUser className='text-slate-500 text-4xl'/>      
                     <div class='p-4 border border-slate-200 rounded-lg relative'>            
-                        <h2 class="absolute -top-6 translate-x-2 translate-y-1/2 bg-white text-slate-500 px-1">Gurests & rooms</h2>
+                        <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">Gurests & rooms</h2>
                         <input type="text" placeholder='2 Guests 1 Room' className='focus:outline-none' />
                     </div>
                 </div>
