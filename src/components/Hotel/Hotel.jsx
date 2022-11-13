@@ -15,9 +15,9 @@ const Hotel = () => {
     <div className="w-[100%] font-Poppins min-h-[100vh]">
       {/* <Nav /> */}
       <Main />
-      <div className="py-20 lg:py-10"></div>
+      <div className="py-20 lg:py-10 4xl:py-0"></div>
       <MiniCarousel />
-      <div className="py-10"></div>
+      <div className="py-10 4xl:py-0"></div>
       <Main2 /> 
       <div className="py-4 2xl:py-0"></div>
       <Featured/>

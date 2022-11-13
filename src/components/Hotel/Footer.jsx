@@ -17,7 +17,7 @@ import Express from './images/expresscard.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#0b0a12] 2xl:h-[87vh] 3xl:h-[60vh]'>
+    <div className='bg-[#0b0a12] 2xl:h-[87vh] 3xl:h-[60vh] 4xl:h-[45vh]'>
         <div className="w-[90%] lg:w-[1100px] mx-auto space-y-8">
             <div className="flex flex-wrap justify-between pt-10">                
                 <div className="lg:w-[25%] space-y-3 font-DmSans text-secondary-500">

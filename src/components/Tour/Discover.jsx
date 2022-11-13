@@ -20,11 +20,11 @@ import './tour.css'
 
 const Discover = () => {
   return (
-    <div className="w-[90%] 2xl:w-[1100px] mx-auto">
-      <div className="flex justify-between items-center space-x-8">
-        <div className="w-[33%] space-y-6">
+    <div className="w-[90%] xl:w-[1100px] 2xl:w-[1100px] mx-auto">
+      <div className="flex flex-col xl:flex-row justify-between items-center xl:space-x-8">
+        <div className="w-full xl:w-[33%] space-y-6 mb-8">
           <h1
-            style={{ lineHeight: 1.2 }}
+            style={{ 'lineHeight': 1.2 }}
             className="text-3xl 2xl:text-5xl tracking-wide  text-start font-bold"
           >
             Discover the best places to visit 🔥
@@ -65,7 +65,7 @@ const Discover = () => {
             <HiArrowNarrowRight />
           </Button>
         </div>
-        <div className="w-[31%] space-y-8">
+        <div className="w-full xl:w-[31%] space-y-8">
           <div className="relative group ">
             <img src={discoverImg1} className="rounded-2xl" alt="" />
             <span className="hidden group-hover:block duration-500 absolute top-0 rounded-2xl w-full h-full bg-opacity-20 bg-black">
@@ -131,7 +131,7 @@ const Discover = () => {
             </Swiper>
           </div>
         </div>
-        <div className="w-[31%] self-start">
+        <div className="w-full xl:w-[31%] self-start">
           <div className="flex-col space-y-8">
             <div className="relative group">
               <img src={discoverImg2} className="rounded-2xl" alt="" />

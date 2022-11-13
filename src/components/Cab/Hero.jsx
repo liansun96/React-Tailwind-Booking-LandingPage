@@ -5,7 +5,7 @@ import {CgArrowsExchangeAlt} from 'react-icons/cg'
 const Hero = () => {
   return (
     <div className='w-[90%] 2xl:w-[1100px] mx-auto 3xl:min-h-[50vh]'>
-        <div className="cabHero max-w-[85%] ml-auto h-[550px] flex justify-start items-center rounded-3xl mt-10">
+        <div className="cabHero max-w-[85%] ml-auto h-[600px] flex justify-start items-center rounded-3xl mt-10">
             <div className="w-[500px] h-[400px] bg-white custom-shadow rounded-3xl p-5 -translate-x-1/3">
               <h6 className='text-2xl font-bold'>
                 Book Your Online Cab

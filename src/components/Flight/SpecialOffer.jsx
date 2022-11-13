@@ -7,10 +7,10 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const SpecialOffer = () => {
   return (
-    <div className='w-[90%] mx-auto lg:w-[1100px] min-h-[40vh] 3xl:min-h-[30vh]'>
+    <div className='w-[90%] mx-auto lg:w-[1100px] min-h-[40vh] 3xl:min-h-[20vh]'>
         <h4 className='text-3xl font-bold mb-5'>Special Offers</h4>
-        <div className="flex justify-start space-x-6">
-            <div className="w-[25%] bg-[#e6f8f3] space-y-6 p-5 rounded-2xl">
+        <div className="flex flex-col xl:flex-row 2xl:flex-row justify-start space-y-6 xl:space-x-6 2xl:space-x-6">
+            <div className="w-full xl:w-[25%] 2xl:w-[25%] bg-[#e6f8f3] space-y-6 p-5 rounded-2xl mt-6">
                 <img src={Offer1} className='w-[70%]' alt="" />
                 <div className="">
                     <p>Flat</p>
@@ -30,7 +30,7 @@ const SpecialOffer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[25%] bg-[#fbe9eb] space-y-6 p-5 rounded-2xl">
+            <div className="w-full xl:w-[25%] 2xl:w-[25%] bg-[#fbe9eb] space-y-6 p-5 rounded-2xl">
                 <img src={Offer2} className='w-[70%]' alt="" />
                 <div className="">
                     <p>Flat</p>
@@ -50,7 +50,7 @@ const SpecialOffer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[25%] bg-[#e7f6f8] space-y-6 p-5 rounded-2xl">
+            <div className="w-full xl:w-[25%] 2xl:w-[25%] bg-[#e7f6f8] space-y-6 p-5 rounded-2xl">
                 <img src={Offer3} className='w-[70%]' alt="" />
                 <div className="">
                     <p>Flat</p>

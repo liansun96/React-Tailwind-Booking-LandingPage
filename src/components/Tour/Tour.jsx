@@ -13,9 +13,9 @@ const Tour = () => {
         <Hero/>
         <div className="py-10"></div>        
         <PackageFeatured/>
-        <div className="py-10"></div>
+        <div className="py-5 xl:py-10"></div>
         <SubscribeSec/>
-        <div className="py-10"></div>
+        <div className="py-5 xl:py-10"></div>
         <Categories/>
         <div className="py-10"></div>
         <Discover/>
