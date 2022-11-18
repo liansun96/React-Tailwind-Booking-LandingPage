@@ -9,11 +9,11 @@ import {FaWheelchair} from 'react-icons/fa'
 const ChooseUs = () => {
   return (
     <div className='w-[90%] lg:w-[1100px] mx-auto 2xl:h-[70vh] 3xl:h-[50vh]'>
-        <h1 className="text-3xl 2xl:text-5xl my-8 leading-tight text-center font-bold">
+        <h1 data-aos="fade-right" data-aos-duration="300" className="text-3xl 2xl:text-5xl my-8 leading-tight text-center font-bold">
             Why Choose Us         
         </h1>
-        <div className="flex justify-between">
-            <div className="w-[31.5%] group">
+        <div className="flex flex-col xl:flex-row space-y-4 xl:space-y-0 justify-between">
+            <div data-aos="fade-right" data-aos-duration="600" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#dddbf7]">
                         <BsFillLightningFill className='text-primary text-2xl'/>
@@ -24,7 +24,7 @@ const ChooseUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[31.5%] group">
+            <div data-aos="fade-right" data-aos-duration="900" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#e6f8f3]">
                         <FaLeaf className='text-[#0cbc87] text-2xl'/>
@@ -35,7 +35,7 @@ const ChooseUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[31.5%] group">
+            <div data-aos="fade-right" data-aos-duration="1200" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#fef6e0]">
                         <BsLifePreserver className='text-[#f7c32e] text-2xl'/>
@@ -47,9 +47,9 @@ const ChooseUs = () => {
                 </div>
             </div>
         </div>
-        <div className="py-3"></div>
-        <div className="flex justify-between">
-            <div className="w-[31.5%] group">
+        <div className="py-2 xl:py-3"></div>
+        <div className="flex flex-col xl:flex-row space-y-4 xl:space-y-0 justify-between">
+            <div data-aos="fade-right" data-aos-duration="1500" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#fbe9eb]">
                         <FaCar className='text-[#d6293e] text-2xl'/>
@@ -61,7 +61,7 @@ const ChooseUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[31.5%] group">
+            <div data-aos="fade-right" data-aos-duration="1800" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#fff2e7]">
                         <TiWiFi className='text-[#fd7e14] text-2xl'/>
@@ -72,7 +72,7 @@ const ChooseUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[31.5%] group">
+            <div data-aos="fade-right" data-aos-duration="2100" className="w-full xl:w-[31.5%] group">
                 <div className="custom-shadow-sm group-hover:custom-shadow duration-300 rounded-xl space-y-4 p-5">
                     <div className="w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#e7f6f8]">
                         <FaWheelchair className='text-[#17a7cb] text-2xl'/>

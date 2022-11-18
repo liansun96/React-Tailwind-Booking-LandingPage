@@ -12,13 +12,13 @@ const Cab = () => {
   return (
     <div className='font-Poppins'>
         <Hero/>
-        <div className="py-5"></div>
+        <div className="py-56 xl:py-5"></div>
         <Vehicles/>
         <div className="py-5"></div>
         <ChooseUs/>
-        <div className="py-20"></div>
+        <div className="py-5 xl:py-20"></div>
         <DownloadApp/>
-        <div className="py-10"></div>
+        <div className="py-5 xl:py-10"></div>
         <Accordion/>
         <div className=""></div>
         <Sponsor/>

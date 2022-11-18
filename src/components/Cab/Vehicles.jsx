@@ -9,11 +9,11 @@ import coupeCar from './images/coupe.svg'
 const Vehicles = () => {
   return (
     <div className='w-[90%] lg:w-[1100px] mx-auto'>
-        <h1 className="text-3xl 2xl:text-5xl my-8 leading-tight text-center font-bold">
+        <h1 data-aos="fade-right" data-aos-duration="300" className="text-3xl 2xl:text-5xl my-4 xl:my-8 leading-tight text-center font-bold">
             Our Awesome Vehicles         
         </h1>
-        <div className="flex justify-between items-center">
-            <div className="group w-[160px] h-[230px]">
+        <div className="flex flex-wrap space-y-2 justify-between items-center">
+            <div data-aos="fade-right" data-aos-duration="600" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
@@ -28,7 +28,7 @@ const Vehicles = () => {
                     </div>
                 </div>
             </div>
-            <div className="group w-[160px] h-[230px]">
+            <div data-aos="fade-right" data-aos-duration="900" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
@@ -43,7 +43,7 @@ const Vehicles = () => {
                     </div>
                 </div>
             </div>
-            <div className="group w-[160px] h-[230px]">
+            <div data-aos="fade-right" data-aos-duration="1200" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
@@ -58,7 +58,7 @@ const Vehicles = () => {
                     </div>
                 </div>
             </div>
-            <div className="group w-[160px] h-[230px]">
+            <div data-aos="fade-right" data-aos-duration="1500" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow duration-300">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
@@ -73,7 +73,7 @@ const Vehicles = () => {
                     </div>
                 </div>
             </div>
-            <div className="group w-[160px] h-[230px]">
+            <div data-aos="fade-right" data-aos-duration="1800" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow duration-300">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
@@ -88,7 +88,7 @@ const Vehicles = () => {
                     </div>
                 </div>
             </div>
-            <div className="group w-[160px] h-[230px]">
+            <div data-aos="fade-right" data-aos-duration="2100" className="group w-[160px] h-[230px]">
                 <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">

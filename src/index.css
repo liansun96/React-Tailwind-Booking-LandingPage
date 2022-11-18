@@ -13,11 +13,21 @@
 @layer components {    
 
     .menu {
-        @apply absolute w-[340px] h-[250px] left-[-200px] top-[60px] bg-white bg-opacity-90 shadow duration-300 origin-top rounded
+        @apply absolute w-[380px] h-[280px] left-[-220px] top-[50px] bg-white shadow duration-300 origin-top rounded
+    }
+
+    .active{
+        @apply text-primary bg-secondary-100 px-2 pb-2 pt-3 rounded-lg ;
+    }
+    
+    @media screen and (max-width:600px) {
+        .active{
+            @apply w-full text-primary  px-3 py-1 rounded ;
+        }
     }
 
     .custom-shadow{
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
         /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     }
 

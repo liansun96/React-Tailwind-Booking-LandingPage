@@ -10,7 +10,7 @@ import {BsGithub} from 'react-icons/bs'
 const Footer = () => {
   return (
     <div className='w-[90%] lg:w-[1100px] mx-auto rounded-t-lg bg-[#0b0a12]'>
-        <div className="flex flex-col xl:flex-row 2xl:flex-row justify-between items-center py-8">
+        <div data-aos="zoom-in-up" data-aos-duration="600" className="flex flex-col xl:flex-row 2xl:flex-row justify-between items-center py-8">
             <div className="w-full 2xl:w-[30%]  text-secondary-500">
                 <ul className="flex flex-wrap justify-center  space-x-4 font-DmSans">
                     <li className="activeLink"><a href="#">About</a></li>

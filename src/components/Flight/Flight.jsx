@@ -11,9 +11,9 @@ const Flight = () => {
   return (
     <div className="font-Poppins">
       <Hero/>
-      <div className="py-5"></div>
+      <div className="py-8"></div>
       <SpecialOffer/>
-      <div className="py-5"></div>
+      <div className="py-8"></div>
       <Featured/>
       <div className="py-5"></div>
       <BookingFeatured/>

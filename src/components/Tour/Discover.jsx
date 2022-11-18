@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Navigation } from "swiper";
 import miniCarImg1 from "./images/miniCarImg1.jpg";
 import miniCarImg2 from "./images/miniCarImg2.jpg";
-import './tour.css'
+import "./tour.css";
 
 const Discover = () => {
   return (
@@ -24,13 +24,15 @@ const Discover = () => {
       <div className="flex flex-col xl:flex-row justify-between items-center xl:space-x-8">
         <div className="w-full xl:w-[33%] space-y-6 mb-8">
           <h1
-            style={{ 'lineHeight': 1.2 }}
+            data-aos="fade-up"
+            data-aos-duration="300"
+            style={{ lineHeight: 1.2 }}
             className="text-3xl 2xl:text-5xl tracking-wide  text-start font-bold"
           >
             Discover the best places to visit 🔥
           </h1>
           <div className="flex justify-between items-center">
-            <div className="flex">
+            <div data-aos="fade-up" data-aos-duration="600" className="flex">
               <img
                 src={miniProfile1}
                 className="w-12 h-12 rounded-full"
@@ -55,18 +57,24 @@ const Discover = () => {
                 <p className="text-white">16+</p>
               </div>
             </div>
-            <div className="flex justify-between items-center text-xl space-x-2 py-[2px]">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="900"
+              className="flex justify-between items-center text-xl space-x-2 py-[2px]"
+            >
               <AiFillStar className="text-green-500" />
               <p className="font-bold">4.5</p>
             </div>
           </div>
-          <Button className="bg-[#d7e4f5] text-primary duration-500 hover:bg-primary hover:text-white py-3 space-x-8 rounded-xl flex justify-between items-center">
-            <p>Explore places</p>
-            <HiArrowNarrowRight />
-          </Button>
+          <div data-aos="fade-up" data-aos-duration="1200" className="">
+            <Button className="bg-[#d7e4f5] text-primary duration-500 hover:bg-primary hover:text-white py-3 space-x-8 rounded-xl flex justify-between items-center">
+              <p>Explore places</p>
+              <HiArrowNarrowRight />
+            </Button>
+          </div>
         </div>
         <div className="w-full xl:w-[31%] space-y-8">
-          <div className="relative group ">
+          <div data-aos="fade-up" data-aos-duration="300" className="relative group ">
             <img src={discoverImg1} className="rounded-2xl" alt="" />
             <span className="hidden group-hover:block duration-500 absolute top-0 rounded-2xl w-full h-full bg-opacity-20 bg-black">
               <div className="w-full h-full flex justify-center items-center">
@@ -76,7 +84,7 @@ const Discover = () => {
               </div>
             </span>
           </div>
-          <div className="discoverSwiper">
+          <div data-aos="fade-up" data-aos-duration="600" className="discoverSwiper">
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
@@ -133,7 +141,7 @@ const Discover = () => {
         </div>
         <div className="w-full xl:w-[31%] self-start">
           <div className="flex-col space-y-8">
-            <div className="relative group">
+            <div data-aos="fade-up" data-aos-duration="300" className="relative group">
               <img src={discoverImg2} className="rounded-2xl" alt="" />
               <span className="hidden group-hover:block duration-500 absolute top-0 rounded-2xl w-full h-full bg-opacity-20 bg-black">
                 <div className="w-full h-full flex justify-center items-center">
@@ -143,7 +151,7 @@ const Discover = () => {
                 </div>
               </span>
             </div>
-            <div className="relative group ">
+            <div data-aos="fade-up" data-aos-duration="600"  className="relative group ">
               <img src={discoverImg3} className="rounded-2xl" alt="" />
               <span className="hidden group-hover:block duration-500 absolute top-0 rounded-2xl w-full h-full bg-opacity-20 bg-black">
                 <div className="w-full h-full flex justify-center items-center">

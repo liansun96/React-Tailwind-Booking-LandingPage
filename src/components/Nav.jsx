@@ -10,9 +10,10 @@ import { FaCarAlt } from "react-icons/fa";
 import { BsBell } from "react-icons/bs";
 import { HiSquares2X2 } from "react-icons/hi2";
 import { BsThreeDots } from "react-icons/bs";
-import MobileMenu from "./Hotel/MobileMenu";
+import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import "../App.css";
+import { motion } from 'framer-motion';
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -36,7 +37,11 @@ const Nav = () => {
               Listings
               <FiChevronDown className="ml-1" />
             </div>
-            <span className="group-hover:block hidden cursor-pointer w-[222px] p-2 py-3 bg-white custom-shadow rounded-lg z-10 absolute top-6">
+            <motion.span 
+              className="group-hover:block hidden cursor-pointer w-[222px] p-2 py-3 bg-white custom-shadow rounded-lg z-10 absolute top-6"
+              // whileHover={{y:[-4,10]}}
+              transition={{duration:.3}}
+            >
               <ul className="text-slate-600 font-medium space-y-[3px]">
                 <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
                   Hotel <BsThreeDots />
@@ -66,7 +71,7 @@ const Nav = () => {
                   Offer Detail
                 </li>
               </ul>
-            </span>
+            </motion.span>
           </div>
           <div className="group relative inline-flex">
             <div
@@ -145,7 +150,7 @@ const Nav = () => {
       </div>
       <div className="w-[50%] space-x-3 font-DmSans text-right">
         <div className="flex justify-end items-center space-x-2">
-          <div className="flex space-x-7 items-center hidden lg:block">
+          <div className="flex space-x-10 items-center hidden lg:block">
             <NavLink to="/" className="no-underline">
               <div className="inline-flex space-x-2 items-center">
                 <FaHotel />
@@ -191,7 +196,12 @@ const Nav = () => {
               <a href="" className="font-semibold">
                 <BsBell />
               </a>
-              <span className="absolute -top-[2px] -right-[2px] w-[10px] h-[10px] rounded-full bg-[#d6293e]"></span>
+              <motion.span 
+                className="absolute -top-[2px] -right-[2px] w-[10px] h-[10px] rounded-full bg-[#d6293e]"
+                animate={{ scale:[1,0,1] , opacity:[1,0,1] }}
+                transition={{ repeat:Infinity , duration:1.5 }}
+              >
+              </motion.span>
             </div>
             <img src={navProfile} className="w-[40px] rounded-lg" alt="" />
           </div>

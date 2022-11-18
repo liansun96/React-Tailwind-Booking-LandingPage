@@ -9,11 +9,11 @@ import {AiFillStar} from 'react-icons/ai'
 const PackageFeatured = () => {
   return (
     <div className="w-[90%] lg:w-[1100px] mx-auto">
-        <h1 className="text-3xl lg:text-[55px] my-8 leading-tight text-center font-bold">
+        <h1 data-aos="fade-right" data-aos-duration="300" className="text-3xl lg:text-[55px] my-8 leading-tight text-center font-bold">
             Our Best Packages        
         </h1>
         <div className="flex flex-col lg:flex-row space-y-8 justify-between items-center">
-            <div className="lg:w-[23.5%] overflow-hidden mt-8">
+            <div data-aos="fade-right" data-aos-duration="600" className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={packageImg1} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -41,7 +41,7 @@ const PackageFeatured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden mt-8">
+            <div data-aos="fade-right" data-aos-duration="900" className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={packageImg2} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -69,7 +69,7 @@ const PackageFeatured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden mt-8">
+            <div data-aos="fade-right" data-aos-duration="1200" className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={packageImg3} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -97,7 +97,7 @@ const PackageFeatured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden mt-8">
+            <div data-aos="fade-right" data-aos-duration="1500" className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={packageImg4} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />

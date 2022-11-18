@@ -11,11 +11,11 @@ import {HiOutlineInformationCircle} from 'react-icons/hi'
 const Featured = () => {
   return (
     <div className="w-[90%] lg:w-[1100px] mx-auto">
-        <h1 className="text-3xl lg:text-[55px] my-8 leading-tight text-center font-bold">
+        <h1 className="text-3xl lg:text-[55px] leading-tight text-center font-bold">
             Popular Destinations         
         </h1>
         <div className="flex flex-col lg:flex-row space-y-8 justify-between items-center">
-            <div className="lg:w-[23.5%] overflow-hidden mt-8">
+            <div data-aos="zoom-in-up" data-aos-duration="300"  className="lg:w-[23.5%] overflow-hidden mt-8">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg1} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -37,7 +37,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden">
+            <div data-aos="zoom-in-up" data-aos-duration="600"  className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg2} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -56,7 +56,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden">
+            <div data-aos="zoom-in-up" data-aos-duration="900"  className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg3} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />
@@ -78,7 +78,7 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-[23.5%] overflow-hidden">
+            <div data-aos="zoom-in-up" data-aos-duration="1200"  className="lg:w-[23.5%] overflow-hidden">
                 <div className="featuredCard relative overflow-hidden rounded-2xl">
                     <div className="rounded-2xl overflow-hidden">
                         <img src={featuredImg4} className='w-full rounded-2xl duration-1000 hover:scale-110' alt="" />

@@ -7,12 +7,12 @@ import { IoSearch } from "react-icons/io5";
 const InputForm = () => {
   return (
     <div>
-      <h6 className="text-base font-bold mb-4 hidden lg:block">
+      <h6  data-aos="fade-up" data-aos-duration="300" className="text-base font-bold mb-4 hidden lg:block">
         Check Availability
       </h6>
-      <div className="bg-white rounded-2xl custom-shadow">
+      <div data-aos="fade-up" data-aos-duration="300" className="bg-white rounded-2xl custom-shadow">
         <div className="flex flex-col lg:flex-row justify-between 2xl:space-x-4 space-y-4 py-8 lg:py-5 lg:pl-6 lg:pr-14 relative">
-          <div className=" flex justify-center !items-center space-x-2 py-2 mt-4">
+          <div data-aos="fade-up" data-aos-duration="600" className=" flex justify-center !items-center space-x-2 py-2 mt-4">
             <SlLocationPin className="text-slate-500 text-4xl" />
             <div class="p-4 border border-slate-200 rounded-lg relative">
               <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">
@@ -25,7 +25,7 @@ const InputForm = () => {
               />
             </div>
           </div>
-          <div className=" flex justify-center !items-center space-x-2 py-2">
+          <div data-aos="fade-up" data-aos-duration="600" className=" flex justify-center !items-center space-x-2 py-2">
             <BsCalendar className="text-slate-500 text-4xl" />
             <div class="p-4 border border-slate-200 rounded-lg relative">
               <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">
@@ -38,7 +38,7 @@ const InputForm = () => {
               />
             </div>
           </div>
-          <div className=" flex justify-center !items-center space-x-2 py-2">
+          <div data-aos="fade-up" data-aos-duration="900" className=" flex justify-center !items-center space-x-2 py-2">
             <TbUsers className="text-slate-500 text-4xl" />
             <div class="p-4 border border-slate-200 rounded-lg relative">
               <h2 class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">
@@ -51,7 +51,7 @@ const InputForm = () => {
               />
             </div>
           </div>
-          <div className="flex justify-center items-center absolute w-[60px] h-[60px] -bottom-[30px] right-[40%] lg:top-7 lg:-right-[30px] bg-primary rounded-full">
+          <div data-aos="fade-up" data-aos-duration="1200" className="flex justify-center items-center absolute w-[60px] h-[60px] -bottom-[30px] right-[40%] lg:top-7 lg:-right-[30px] bg-primary rounded-full">
             <IoSearch className="text-white text-2xl" />
           </div>
         </div>

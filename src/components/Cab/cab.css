@@ -1,4 +1,6 @@
 .cabHero{
     background-image: url(./images/cabHeroBg.jpg);
     background-position: top;
+    background-size: cover;
 }
+

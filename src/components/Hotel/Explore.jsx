@@ -19,7 +19,7 @@ const Explore = () => {
             Explore Nearby         
         </h1>
         <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-4 lg:-space-x-8">
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="300" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg1} className='w-40 rounded-full' alt="" />
@@ -36,7 +36,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] !mb-4 lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="600" className="w-[40%] !mb-4 lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg2} className='w-40 rounded-full' alt="" />
@@ -53,7 +53,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="900" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg3} className='w-40 rounded-full' alt="" />
@@ -70,7 +70,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1200" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg4} className='w-40 rounded-full' alt="" />
@@ -87,7 +87,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1500" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg5} className='w-40 rounded-full' alt="" />
@@ -104,7 +104,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1800" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg6} className='w-40 rounded-full' alt="" />
@@ -124,7 +124,7 @@ const Explore = () => {
         </div>
         {/* <div className="py-5"></div> */}
         <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-4 lg:-space-x-8">
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="300" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg7} className='w-40 rounded-full' alt="" />
@@ -141,7 +141,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] !mb-4 lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="600" className="w-[40%] !mb-4 lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg8} className='w-40 rounded-full' alt="" />
@@ -158,7 +158,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="900" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg9} className='w-40 rounded-full' alt="" />
@@ -175,7 +175,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1200" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg10} className='w-40 rounded-full' alt="" />
@@ -192,7 +192,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1500" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg11} className='w-40 rounded-full' alt="" />
@@ -209,7 +209,7 @@ const Explore = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%] lg:w-[15%]">
+            <div data-aos="fade-up" data-aos-duration="1800" className="w-[40%] lg:w-[15%]">
                     <div className="exploreCard relative overflow-hidden">
                         <div className="rounded-2xl overflow-hidden">
                             <img src={exploreImg12} className='w-40 rounded-full' alt="" />

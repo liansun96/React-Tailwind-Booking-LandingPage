@@ -57,7 +57,7 @@ const MainCarousel = () => {
                         <div className="lg:w-[50%]">
                             <div className="lg:w-[95%] mx-auto">
                                 <div className="p-2 space-y-4 mt-6 ml-5 lg:ml-0">
-                                    <FaQuoteLeft className="text-primary text-5xl !mb-6 ml-4"/>
+                                    <FaQuoteLeft  className="text-primary text-5xl !mb-6 ml-4"/>
                                     <h6 className="text-xl font-normal">
                                         Moonlight newspaper up its enjoyment agreeable depending. 
                                         Timed voice share led him to widen noisy young. At weddings 

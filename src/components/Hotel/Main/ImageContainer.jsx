@@ -8,19 +8,19 @@ const ImageContainer = () => {
   return (
     <div className='w-[100%] lg:w-[50%] lg:pl-6'>
         <div className="mb-10 relative">
-            <img src={Img} className="mt-10 lg:float-right rounded-lg -z-10" alt="" />
-            <div className="flex flex-col justify-center items-center space-y-2 p-3 rounded-2xl backdrop-blur-sm bg-white/30 absolute -top-[10px] -right-4 lg:top:[10px] lg:-right-[30px] shadow">
+            <img data-aos="fade-up" data-aos-duration="300" src={Img} className="mt-10 lg:float-right rounded-lg -z-10" alt="" />
+            <div data-aos="fade-up" data-aos-duration="600" className="flex flex-col justify-center items-center space-y-2 p-3 rounded-2xl backdrop-blur-sm bg-white/30 absolute -top-[10px] -right-4 lg:top:[10px] lg:-right-[30px] shadow">
               <BsHeadset className='text-4xl text-[#d6293e]'/>
               <h4 className='text-2xl font-bold'>24 / 7</h4>
               <p>Guide Supports</p>
             </div>
-            <div className="absolute top-16 -left-[30px] hidden lg:block">
-              <img src={ImgCircleSm} className='w-[60px] h-[60px] rounded-full border-[3px] border-slate-100' alt="imgsm" />
+            <div data-aos="fade-up" data-aos-duration="900" className="absolute top-16 -left-[30px] hidden lg:block">
+              <img  src={ImgCircleSm} className='w-[60px] h-[60px] rounded-full border-[3px] border-slate-100' alt="imgsm" />
             </div>
-            <div className="absolute top-40 -left-[40px] hidden lg:block">
+            <div data-aos="fade-up" data-aos-duration="1200" className="absolute top-40 -left-[40px] hidden lg:block">
               <img src={ImgCircleLg} className='w-[80px] h-[80px] rounded-full border-[3px] border-slate-100' alt="imgsm" />
             </div>
-            <div className="absolute top-[250px] -right-4 lg:top-[490px] lg:right-[-25px] ">
+            <div data-aos="fade-up" data-aos-duration="1500" className="absolute top-[250px] -right-4 lg:top-[490px] lg:right-[-25px] ">
               <svg width="150px" fill='#f7c32e' height="150px" viewBox="0 0 163 163">
                 <path className="#f7c32e" d="M145.6,66.2c-0.9-0.3-1.6,0.2-2.1-0.4c-0.5-0.7-1-1.5-1-2.4c0-3.1,0.1-6.2,0-9.3c0-0.7,0.3-1.3,0.5-1.9 c0.8-1.6,1.6-3.2,2.7-4.5c0.5-0.6,1.2-1.2,2-1.5c0.4-0.2,0.8,0.4,1.3-0.1c0.4-0.4,1,0.7,1.6,0.7c0.4,1-0.4,1.5-1,2.1 c0.7,0.3,1.4,0.3,2.1,0.7c0.6,0.4,1.2,0.7,1,1.5c-0.2,1,0.6,1.3,1,1.9c-0.2,0.3-0.6,0.4-0.5,0.8c1.2,3.2,0.3,5.4-0.7,8.1 c-0.3,0.7-0.7,1.6-0.7,2.2c-0.1,1.5-1.2,2.7-1.4,4.1c-0.2,1.1-0.9,1.7-2.1,1.6c-0.2,0-0.4,0.5-1,0.4c-0.2-0.2-0.7-0.5-0.7-0.8 c0-1-0.1-1.7-1.1-2.1C145.5,67.2,145.6,66.6,145.6,66.2"></path>
                 <path d="M94.3,143.5c1.1,0.3,2.4-0.5,3.2,0.7c-0.4,0.7-0.7,1.4-1,2.1c0.5,0.5,0.7,0.2,1.2,0.1c1.6-0.6,2-0.4,2.5,1.2 c0.1,0.2,0,0.6,0.3,0.6c1.8,0.4,1.4,2.2,2.1,3.2c-0.8,0.9,0.5,1.8,0.1,2.6c-0.5,0.8-0.3,2-1.3,2.6c-0.3,0.2-0.1,0.5-0.2,0.7 c-0.3,2.1-1.2,3.7-3.4,4.4c-0.3,0.1-0.4,0.6-1,0.4c-0.3-0.6-0.6-1.3-1-1.9c-0.5-0.2-1.5,0.3-1.4-1h-3c-0.2-1.4,0-2.9-1.1-3.9 c-0.1-0.1-0.1-0.4,0-0.5c0.7-1.2,0.2-2.6,0.7-3.8c0.3-0.6,0.4-1,0.1-1.6c-0.9-1.3,0-2.4,0.7-3.3C92.5,145,93.4,144.3,94.3,143.5"></path>

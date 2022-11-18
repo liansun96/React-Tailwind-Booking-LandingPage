@@ -11,12 +11,12 @@ import category8 from './images/category8.jpg'
 const Categories = () => {
   return (
     <div className='w-[90%] lg:w-[1100px] mx-auto'>
-        <h1 className="text-3xl 2xl:text-5xl my-8 leading-tight text-center font-bold">
+        <h1 data-aos="fade-right" data-aos-duration="300" className="text-3xl 2xl:text-5xl my-8 leading-tight text-center font-bold">
             Top Categories         
         </h1>
         <div className="space-y-8 xl:space-y-10">            
             <div className="flex flex-col xl:flex-row justify-between items-center space-y-8 xl:space-y-0  xl:space-x-4">
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="600" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category1} className="rounded-2xl" alt="" />
                     </div>
@@ -29,7 +29,7 @@ const Categories = () => {
                         </p>                            
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="900" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category2} className="rounded-2xl" alt="" />
                     </div>
@@ -42,7 +42,7 @@ const Categories = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="1200" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category3} className="rounded-2xl" alt="" />
                     </div>
@@ -55,7 +55,7 @@ const Categories = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="1500" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category4} className="rounded-2xl" alt="" />
                     </div>
@@ -70,7 +70,7 @@ const Categories = () => {
                 </div>
             </div> 
             <div className="flex flex-col xl:flex-row justify-between items-center space-y-8 xl:space-y-0 xl:space-x-4">
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="600" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category5} className="rounded-2xl" alt="" />
                     </div>
@@ -83,7 +83,7 @@ const Categories = () => {
                         </p>                            
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="900" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category6} className="rounded-2xl" alt="" />
                     </div>
@@ -96,7 +96,7 @@ const Categories = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="1200" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category7} className="rounded-2xl" alt="" />
                     </div>
@@ -109,7 +109,7 @@ const Categories = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full xl:w-[25%] group flex items-center space-x-4">
+                <div data-aos="fade-right" data-aos-duration="1500" className="w-full xl:w-[25%] group flex items-center space-x-4">
                     <div className="w-[60%] xl:w-[50%]">
                         <img src={category8} className="rounded-2xl" alt="" />
                     </div>

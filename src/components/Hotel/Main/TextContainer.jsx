@@ -7,15 +7,15 @@ import InputForm from "./InputForm";
 const TextContainer = () => {
   return (
     <div className="w-[98%] lg:w-[50%] lg:mb-40 space-y-4 lg:space-y-8">
-      <h1 className="text-4xl lg:text-[65px] leading-tight font-bold">
+      <h1 data-aos="fade-up" data-aos-duration="300" className="text-4xl lg:text-[65px] leading-tight font-bold">
         Find the top <br className="hidden lg:block" />
         Hotels nearby.
       </h1>
-      <p className="text-secondary-300 lg:text-base font-DmSans !mb-5 relative">
+      <p data-aos="fade-up" data-aos-duration="600" className="text-secondary-300 lg:text-base font-DmSans !mb-5 relative">
         We bring you not only a stay option, but an experience in your budget to{" "}
         <br />
         enjoy the luxury.
-        <span className="absolute top-[-53px] lg:right-[110px] -z-10 hidden lg:block">
+        <span data-aos="fade-right" data-aos-duration="1200" className="absolute top-[-53px] lg:right-[110px] -z-10 hidden lg:block">
           <svg width="400px" height="21.5px" viewBox="0 0 445.5 21.5">
             <path
               fill="#867ce4"
@@ -25,7 +25,7 @@ const TextContainer = () => {
         </span>
       </p>
 
-      <div className="flex justify-start items-center space-x-4 relative">
+      <div data-aos="fade-up" data-aos-duration="900" className="flex justify-start items-center space-x-4 relative">
         <Button
           className={
             "bg-secondary-100 text-primary text-sm tracking-wider font-semibold hover:bg-secondary-100 duration-300"
