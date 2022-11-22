@@ -10,7 +10,7 @@ import {AiFillStar} from 'react-icons/ai'
 const Featured = () => {
   return (
     <div className="w-[90%] lg:w-[1100px] mx-auto">
-        <h1 data-aos="fade-right" className="text-3xl lg:text-[55px] my-8 leading-tight text-center font-bold">
+        <h1 data-aos="fade-right" className="text-3xl lg:text-[55px] my-6 lg:my-8 leading-tight text-center font-bold">
             Featured Hotels         
         </h1>
         <div className="flex flex-col lg:flex-row space-y-8 justify-between items-center">

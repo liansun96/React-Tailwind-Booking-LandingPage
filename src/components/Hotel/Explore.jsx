@@ -15,7 +15,7 @@ import exploreImg12 from './images/exploreImg12.jpg'
 const Explore = () => {
   return (
     <div className="w-[90%] lg:w-[1100px] mx-auto">
-        <h1 className="text-4xl  lg:text-[55px] lg:my-8 leading-tight text-center font-bold">
+        <h1 className="text-4xl  lg:text-[55px] my-6 lg:my-8 leading-tight text-center font-bold">
             Explore Nearby         
         </h1>
         <div className="flex flex-wrap justify-around lg:justify-between items-center space-y-4 lg:-space-x-8">
@@ -27,7 +27,7 @@ const Explore = () => {
                         <div className="space-y-2 mt-4">                            
                             <div className="text-center !mr-4">
                             <h6 className='exploreCardTitle duration-150 text-xl font-bold'>
-                                San Francisco
+                                SanFrancisco
                             </h6>
                             <p className='text-slate-500 font-light'>                                
                                 13 min drive 
@@ -220,7 +220,7 @@ const Explore = () => {
                                Oslo
                             </h6>
                             <p className='text-slate-500 font-light'>                                
-                                1 hour 13 min drive 
+                                1 hour drive 
                             </p>                            
                         </div>
                     </div>

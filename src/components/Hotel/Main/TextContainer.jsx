@@ -45,7 +45,7 @@ const TextContainer = () => {
               </div>
             </span>
           </div>
-          <p>watch our story</p>
+          <p className="text-xs font-semibold lg:text-sm tracking-tight">watch our story</p>
         </div>
       </div>
     </div>

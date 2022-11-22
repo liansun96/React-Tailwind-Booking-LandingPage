@@ -25,7 +25,7 @@ const Hotel = () => {
       <Sponsor/>
       <div className="py-5 lg:py-10"></div>
       <MainCarousel/>
-      <div className="py-10"></div>
+      <div className="py-5 lg:py-10"></div>
       <Explore/>
       <div className="py-10"></div>
       <DownloadApp/>
