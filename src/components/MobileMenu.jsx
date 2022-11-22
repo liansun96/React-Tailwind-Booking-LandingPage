@@ -9,8 +9,8 @@ import { NavLink } from "react-router-dom";
 const MobileMenu = ({ toggle }) => {
   return (
     <div className={toggle ? "menu scale-y-1" : "menu scale-y-0"}>
-      <div className="flex flex-col justify-center items-center my-3 space-y-5">
-        <div className="w-[90%] flex space-x-2 justify-center items-center  py-2 rounded">
+      <div className="flex flex-col justify-center items-center my-3 space-y-7">
+        <div className="w-[90%] flex space-x-2 justify-center items-center rounded">
           <NavLink to="/" className="no-underline">
             <div className="inline-flex space-x-2 items-center">
               <FaHotel />
@@ -20,7 +20,7 @@ const MobileMenu = ({ toggle }) => {
             </div>
           </NavLink>
         </div>
-        <div className="w-[90%] flex space-x-2 justify-center items-center  py-2 rounded">
+        <div className="w-[90%] flex space-x-2 justify-center items-center rounded">
           <NavLink to="/flight" className="no-underline">
             <div className="inline-flex space-x-2 items-center">
               <IoAirplaneSharp />
@@ -30,7 +30,7 @@ const MobileMenu = ({ toggle }) => {
             </div>
           </NavLink>
         </div>
-        <div className="w-[90%] flex space-x-2 justify-center items-center  py-2 rounded">
+        <div className="w-[90%] flex space-x-2 justify-center items-center rounded">
           <NavLink to="/tour" className="no-underline">
             <div className="inline-flex space-x-2 items-center">
               <IoEarth />
@@ -40,8 +40,8 @@ const MobileMenu = ({ toggle }) => {
             </div>
           </NavLink>
         </div>
-        <div className="w-[90%] flex space-x-2 justify-center items-center  py-2 rounded">
-          <NavLink to="/cabs" className="no-underline">
+        <div className="w-[90%] flex space-x-2 justify-center items-center rounded">
+          <NavLink to="/cab" className="no-underline">
             <div className="inline-flex space-x-2 items-center">
               <FaCarAlt />
               <p href="" className="font-semibold">

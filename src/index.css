@@ -13,7 +13,7 @@
 @layer components {    
 
     .menu {
-        @apply absolute w-[380px] h-[280px] left-[-220px] top-[50px] bg-white shadow duration-300 origin-top rounded
+        @apply absolute w-[385px] h-[230px] left-[-220px] top-[50px] bg-white shadow duration-300 origin-top rounded
     }
 
     .active{

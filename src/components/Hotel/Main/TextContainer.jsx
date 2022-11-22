@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa";
+import { BsPlayFill } from "react-icons/bs";
 import Button from "../../Button";
 import btnImg from "../images/btnImg.jpg";
 import InputForm from "./InputForm";
@@ -28,14 +29,22 @@ const TextContainer = () => {
       <div data-aos="fade-up" data-aos-duration="900" className="flex justify-start items-center space-x-4 relative">
         <Button
           className={
-            "bg-secondary-100 text-primary text-sm tracking-wider font-semibold hover:bg-secondary-100 duration-300"
+            "bg-secondary-100 hover:bg-primary text-primary hover:text-white text-sm tracking-wider font-semibold duration-300"
           }
         >
           Discover Now
         </Button>
         <div className="rounded-full flex items-center space-x-2 absolute left-40">
-          <img src={btnImg} className="rounded-full w-[50px]" alt="" />
-          <span className=""></span>
+          <div className="relative">
+            <img src={btnImg} className="rounded-full w-[50px]" alt="" />
+            <span className="duration-500 absolute top-0 rounded-2xl w-full h-full">
+              <div className="w-full h-full flex justify-center items-center">
+                <div className="w-8 h-8 text-center bg-white bg-opacity-80 rounded-full flex justify-center items-center">
+                  <BsPlayFill className="text-secondary-300 text-xl" />
+                </div>
+              </div>
+            </span>
+          </div>
           <p>watch our story</p>
         </div>
       </div>

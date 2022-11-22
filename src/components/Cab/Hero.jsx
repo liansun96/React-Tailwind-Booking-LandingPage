@@ -23,7 +23,7 @@ const Hero = () => {
                   </div>                
                 </div>
                 <div className="flex flex-col xl:flex-row space-y-6 xl:space-y-0  xl:space-x-6">
-                  <div data-aos="fade-down" data-aos-duration="300" className="w-full xl:w-[50%]">
+                  <div data-aos="fade-down" data-aos-duration="400" className="w-full xl:w-[50%]">
                     <div class='p-4 border border-secondary-300 rounded-lg relative'>            
                         <p class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">Pickup</p>
                         <input type="text" placeholder='Select location' className='focus:outline-none w-[100%]' />
@@ -41,7 +41,7 @@ const Hero = () => {
                   </div>
                 </div>   
                 <div className="flex flex-col xl:flex-row space-y-6 xl:space-y-0  xl:space-x-6">
-                  <div data-aos="fade-down" data-aos-duration="300" className="w-full xl:w-[50%]">
+                  <div data-aos="fade-down" data-aos-duration="600" className="w-full xl:w-[50%]">
                     <div class='p-4 border border-secondary-300 rounded-lg relative'>            
                         <p class="absolute -top-5 translate-x-2 translate-y-1/2 bg-white text-sm text-slate-500 px-1">Pickup Date</p>
                         <input type="text" placeholder='Select date' className='focus:outline-none w-[100%]' />
