@@ -14,11 +14,11 @@ const Vehicles = () => {
         </h1>
         <div className="flex flex-wrap space-y-2 justify-between items-center">
             <div data-aos="fade-right" data-aos-duration="600" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
+                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={seadanCar} className="w-[70%]" alt="" />
+                                <img src={seadanCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">
@@ -29,11 +29,11 @@ const Vehicles = () => {
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="900" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
+                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={microCar} className="w-[70%]" alt="" />
+                                <img src={microCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">
@@ -44,11 +44,11 @@ const Vehicles = () => {
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="1200" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
+                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={cuvCar} className="w-[70%]" alt="" />
+                                <img src={cuvCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">
@@ -59,11 +59,11 @@ const Vehicles = () => {
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="1500" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow duration-300">
+                <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3 duration-300">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={suvCar} className="w-[70%]" alt="" />
+                                <img src={suvCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">
@@ -74,11 +74,11 @@ const Vehicles = () => {
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="1800" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow duration-300">
+                <div className="w-[160px] h-[220px] rounded-xl custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3 duration-300">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={pickupCar} className="w-[70%]" alt="" />
+                                <img src={pickupCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">
@@ -89,11 +89,11 @@ const Vehicles = () => {
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="2100" className="group w-[160px] h-[230px]">
-                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow">
+                <div className="w-[160px] h-[220px] rounded-xl duration-300 custom-shadow-sm group-hover:custom-shadow group-hover:-translate-y-3">
                     <div className="flex-col">
                         <div className="h-[150px] w-full flex justify-center items-center">
                             <div className="w-[120px] h-[120px] rounded-full bg-secondary-400 flex justify-center items-center">
-                                <img src={coupeCar} className="w-[70%]" alt="" />
+                                <img src={coupeCar} className="w-[70%] group-hover:scale-110 duration-500" alt="" />
                             </div>
                         </div>
                         <div className="text-center space-y-2">

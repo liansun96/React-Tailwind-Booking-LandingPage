@@ -11,9 +11,9 @@ import { BsBell } from "react-icons/bs";
 import { HiSquares2X2 } from "react-icons/hi2";
 import { BsThreeDots } from "react-icons/bs";
 import MobileMenu from "./MobileMenu";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../App.css";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -37,24 +37,32 @@ const Nav = () => {
               Listings
               <FiChevronDown className="ml-1" />
             </div>
-            <motion.span 
+            <motion.span
               className="group-hover:block hidden cursor-pointer w-[222px] p-2 py-3 bg-white custom-shadow rounded-lg z-10 absolute top-6"
               // whileHover={{y:[-4,10]}}
-              transition={{duration:.3}}
+              transition={{ duration: 0.3 }}
             >
               <ul className="text-slate-600 font-medium space-y-[3px]">
-                <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
-                  Hotel <BsThreeDots />
-                </li>
-                <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
-                  Flight <BsThreeDots />
-                </li>
-                <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
-                  Tour <BsThreeDots />
-                </li>
-                <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
-                  Cab <BsThreeDots />
-                </li>
+                <Link to='/'>
+                  <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
+                    Hotel <BsThreeDots />
+                  </li>
+                </Link>
+                <Link to="/flight">
+                  <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
+                    Flight <BsThreeDots />
+                  </li>
+                </Link>
+                <Link to='/tour'>
+                  <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
+                    Tour <BsThreeDots />
+                  </li>
+                </Link>
+                <Link to='/cab'>
+                  <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
+                    Cab <BsThreeDots />
+                  </li>
+                </Link>
                 <li className="flex items-center justify-between hover:text-primary hover:bg-secondary-100 px-4 py-2 rounded-lg">
                   Add Listing <BsThreeDots />
                 </li>
@@ -160,7 +168,7 @@ const Nav = () => {
               </div>
             </NavLink>
             <NavLink to="/flight">
-              <div className="inline-flex space-x-2 justify-center items-center">
+              <div className="inline-flex space-x-2 justify-center items-center ">
                 <IoAirplaneSharp />
                 <p href="" className="font-semibold">
                   Flight
@@ -196,12 +204,11 @@ const Nav = () => {
               <a href="" className="font-semibold">
                 <BsBell />
               </a>
-              <motion.span 
+              <motion.span
                 className="absolute -top-[2px] -right-[2px] w-[10px] h-[10px] rounded-full bg-[#d6293e]"
-                animate={{ scale:[1,0,1] , opacity:[1,0,1] }}
-                transition={{ repeat:Infinity , duration:1.5 }}
-              >
-              </motion.span>
+                animate={{ scale: [1, 0, 1], opacity: [1, 0, 1] }}
+                transition={{ repeat: Infinity, duration: 1.5 }}
+              ></motion.span>
             </div>
             <img src={navProfile} className="w-[40px] rounded-lg" alt="" />
           </div>
